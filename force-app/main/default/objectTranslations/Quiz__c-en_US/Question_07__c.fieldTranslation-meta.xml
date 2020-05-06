@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Question_07 --></label>
+    <name>Question_07__c</name>
+    <picklistValues>
+        <masterLabel>Fundos Multimercados, Títulos Públicos, LCI, LCA.</masterLabel>
+        <translation><!-- Fundos Multimercados, Títulos Públicos, LCI, LCA. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fundos de Ações, Ações, Fundos Imobiliários, Debêntures, Fundos Cambiais.</masterLabel>
+        <translation><!-- Fundos de Ações, Ações, Fundos Imobiliários, Debêntures, Fundos Cambiais. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fundos de Investimentos em Participações (FIP), Derivativos (Futuros, Opções e Swaps).</masterLabel>
+        <translation><!-- Fundos de Investimentos em Participações (FIP), Derivativos (Futuros, Opções e Swaps). --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poupança, Fundos DI, CDB, Fundos de Renda Fixa.</masterLabel>
+        <translation><!-- Poupança, Fundos DI, CDB, Fundos de Renda Fixa. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

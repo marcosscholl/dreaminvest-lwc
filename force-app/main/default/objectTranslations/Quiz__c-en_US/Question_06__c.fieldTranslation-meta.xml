@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Question_06 --></label>
+    <name>Question_06__c</name>
+    <picklistValues>
+        <masterLabel>Aumentaria a posição.</masterLabel>
+        <translation><!-- Aumentaria a posição. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manteria a posição.</masterLabel>
+        <translation><!-- Manteria a posição. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Não sei o que faria.</masterLabel>
+        <translation><!-- Não sei o que faria. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Venderia toda a posição.</masterLabel>
+        <translation><!-- Venderia toda a posição. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

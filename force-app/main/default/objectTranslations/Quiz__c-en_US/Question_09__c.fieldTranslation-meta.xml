@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Question_09 --></label>
+    <name>Question_09__c</name>
+    <picklistValues>
+        <masterLabel>Fundos de Investimento Multimercado.</masterLabel>
+        <translation><!-- Fundos de Investimento Multimercado. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imóveis.</masterLabel>
+        <translation><!-- Imóveis. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outros.</masterLabel>
+        <translation><!-- Outros. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renda Fixa (Fundos de Renda Fixa, DI, CDBs, Poupança).</masterLabel>
+        <translation><!-- Renda Fixa (Fundos de Renda Fixa, DI, CDBs, Poupança). --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renda Variável (Ações e Fundos de Ações).</masterLabel>
+        <translation><!-- Renda Variável (Ações e Fundos de Ações). --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

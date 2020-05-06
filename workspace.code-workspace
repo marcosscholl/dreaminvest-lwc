@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "dreaminvest-lwc",
+			"path": "."
+		}
+	],
+	"settings": {
+		"salesforcedx-vscode-core.show-cli-success-msg": false
+	}
+}

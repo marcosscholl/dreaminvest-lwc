@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Question_11 --></label>
+    <name>Question_11__c</name>
+    <picklistValues>
+        <masterLabel>Apesar de não ter a formação acadêmica na área financeira possuo experiência no mercado de capitais e financeiro.</masterLabel>
+        <translation><!-- Apesar de não ter a formação acadêmica na área financeira possuo experiência no mercado de capitais e financeiro. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Não tenho formação acadêmica na área financeira, mas desejo operar no mercado de capitais e financeiro.</masterLabel>
+        <translation><!-- Não tenho formação acadêmica na área financeira, mas desejo operar no mercado de capitais e financeiro. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tenho formação acadêmica e experiência profissional na área financeira, por isto conheço profundamente o mercado financeiro, como operações de derivativos e estruturadas.</masterLabel>
+        <translation><!-- Tenho formação acadêmica e experiência profissional na área financeira, por isto conheço profundamente o mercado financeiro, como operações de derivativos e estruturadas. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tenho formação na área financeira e conheço as regras do mercado financeiro.</masterLabel>
+        <translation><!-- Tenho formação na área financeira e conheço as regras do mercado financeiro. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Question_07__c</fullName>
+    <externalId>false</externalId>
+    <label>Question_07</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Poupança, Fundos DI, CDB, Fundos de Renda Fixa.</fullName>
+                <default>false</default>
+                <label>Poupança, Fundos DI, CDB, Fundos de Renda Fixa.</label>
+            </value>
+            <value>
+                <fullName>Fundos Multimercados, Títulos Públicos, LCI, LCA.</fullName>
+                <default>false</default>
+                <label>Fundos Multimercados, Títulos Públicos, LCI, LCA.</label>
+            </value>
+            <value>
+                <fullName>Fundos de Ações, Ações, Fundos Imobiliários, Debêntures, Fundos Cambiais.</fullName>
+                <default>false</default>
+                <label>Fundos de Ações, Ações, Fundos Imobiliários, Debêntures, Fundos Cambiais.</label>
+            </value>
+            <value>
+                <fullName>Fundos de Investimentos em Participações (FIP), Derivativos (Futuros, Opções e Swaps).</fullName>
+                <default>false</default>
+                <label>Fundos de Investimentos em Participações (FIP), Derivativos (Futuros, Opções e Swaps).</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

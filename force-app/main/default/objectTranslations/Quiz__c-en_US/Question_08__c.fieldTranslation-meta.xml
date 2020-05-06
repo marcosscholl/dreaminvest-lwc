@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Question_08 --></label>
+    <name>Question_08__c</name>
+    <picklistValues>
+        <masterLabel>Investi apenas em produtos ou fundos de renda fixa.</masterLabel>
+        <translation><!-- Investi apenas em produtos ou fundos de renda fixa. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investi em produtos de renda fixa e/ou de multimercado e/ou de renda variável e/ou com derivativos com finalidade de especulação ou alavancagem.</masterLabel>
+        <translation><!-- Investi em produtos de renda fixa e/ou de multimercado e/ou de renda variável e/ou com derivativos com finalidade de especulação ou alavancagem. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investi em produtos ou fundos de renda fixa e/ ou de multimercado e/ou de renda variável e/ou com derivativos com finalidade de hedge.</masterLabel>
+        <translation><!-- Investi em produtos ou fundos de renda fixa e/ ou de multimercado e/ou de renda variável e/ou com derivativos com finalidade de hedge. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nunca investi. Primeiro aporte.</masterLabel>
+        <translation><!-- Nunca investi. Primeiro aporte. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Question_11__c</fullName>
+    <externalId>false</externalId>
+    <label>Question_11</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Não tenho formação acadêmica na área financeira, mas desejo operar no mercado de capitais e financeiro.</fullName>
+                <default>false</default>
+                <label>Não tenho formação acadêmica na área financeira, mas desejo operar no mercado de capitais e financeiro.</label>
+            </value>
+            <value>
+                <fullName>Apesar de não ter a formação acadêmica na área financeira possuo experiência no mercado de capitais e financeiro.</fullName>
+                <default>false</default>
+                <label>Apesar de não ter a formação acadêmica na área financeira possuo experiência no mercado de capitais e financeiro.</label>
+            </value>
+            <value>
+                <fullName>Tenho formação na área financeira e conheço as regras do mercado financeiro.</fullName>
+                <default>false</default>
+                <label>Tenho formação na área financeira e conheço as regras do mercado financeiro.</label>
+            </value>
+            <value>
+                <fullName>Tenho formação acadêmica e experiência profissional na área financeira, por isto conheço profundamente o mercado financeiro, como operações de derivativos e estruturadas.</fullName>
+                <default>false</default>
+                <label>Tenho formação acadêmica e experiência profissional na área financeira, por isto conheço profundamente o mercado financeiro, como operações de derivativos e estruturadas.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

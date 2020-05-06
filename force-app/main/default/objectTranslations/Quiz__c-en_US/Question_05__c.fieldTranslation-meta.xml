@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Question_05 --></label>
+    <name>Question_05__c</name>
+    <picklistValues>
+        <masterLabel>Acima de 50%.</masterLabel>
+        <translation><!-- Acima de 50%. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Até 10%.</masterLabel>
+        <translation><!-- Até 10%. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>De 10 a 20%.</masterLabel>
+        <translation><!-- De 10 a 20%. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>De 20% a 50%.</masterLabel>
+        <translation><!-- De 20% a 50%. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

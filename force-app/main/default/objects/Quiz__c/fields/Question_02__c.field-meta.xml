@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Question_02__c</fullName>
+    <externalId>false</externalId>
+    <label>Question_02</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Até 1 ano.</fullName>
+                <default>false</default>
+                <label>Até 1 ano.</label>
+            </value>
+            <value>
+                <fullName>1 a 5 anos.</fullName>
+                <default>false</default>
+                <label>1 a 5 anos.</label>
+            </value>
+            <value>
+                <fullName>Mais de 5 anos.</fullName>
+                <default>false</default>
+                <label>Mais de 5 anos.</label>
+            </value>
+            <value>
+                <fullName>Essa reserva não será utilizada, a não ser em caso de emergência.</fullName>
+                <default>false</default>
+                <label>Essa reserva não será utilizada, a não ser em caso de emergência.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

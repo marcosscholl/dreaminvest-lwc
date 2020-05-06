@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Question_12__c</fullName>
+    <externalId>false</externalId>
+    <label>Question_12</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Não admito perder nada do capital investido. Procuro um retorno seguro e sem oscilações. Segurança é mais importante do que rentabilidade.</fullName>
+                <default>false</default>
+                <label>Não admito perder nada do capital investido. Procuro um retorno seguro e sem oscilações. Segurança é mais importante do que rentabilidade.</label>
+            </value>
+            <value>
+                <fullName>Não admito perder nada do capital investido, no entanto posso arriscar uma parte do capital para alcançar resultados melhores que a renda fixa tradicional. Valorizo mais a segurança do que a rentabilidade.</fullName>
+                <default>false</default>
+                <label>Não admito perder nada do capital investido, no entanto posso arriscar uma parte do capital para alcançar resultados melhores que a renda fixa tradicional. Valorizo mais a segurança do que a rentabilidade.</label>
+            </value>
+            <value>
+                <fullName>Posso correr riscos para conseguir uma rentabilidade acima da média, no entanto, prezo a preservação de 100% do capital investido. Divido minhas preferências entre segurança e rentabilidade, mas ainda prefiro segurança à rentabilidade.</fullName>
+                <default>false</default>
+                <label>Posso correr riscos para conseguir uma rentabilidade acima da média, no entanto, prezo a preservação de 100% do capital investido. Divido minhas preferências entre segurança e rentabilidade, mas ainda prefiro segurança à rentabilidade.</label>
+            </value>
+            <value>
+                <fullName>Admito perdas de até 20% do capital investido, se a proposta de investimento  gerar possibilidade de altos retornos. A procura por rentabilidade é mais importante do que a segurança.</fullName>
+                <default>false</default>
+                <label>Admito perdas de até 20% do capital investido, se a proposta de investimento  gerar possibilidade de altos retornos. A procura por rentabilidade é mais importante do que a segurança.</label>
+            </value>
+            <value>
+                <fullName>Minha prioridade é maximizar a rentabilidade, com a segurança em segundo pano. Posso correr grande riscos para obter elevados retornos, admitindo perder mais de 20% do meu capital investido.</fullName>
+                <default>false</default>
+                <label>Minha prioridade é maximizar a rentabilidade, com a segurança em segundo pano. Posso correr grande riscos para obter elevados retornos, admitindo perder mais de 20% do meu capital investido.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

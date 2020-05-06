@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Question_08__c</fullName>
+    <externalId>false</externalId>
+    <label>Question_08</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nunca investi. Primeiro aporte.</fullName>
+                <default>false</default>
+                <label>Nunca investi. Primeiro aporte.</label>
+            </value>
+            <value>
+                <fullName>Investi apenas em produtos ou fundos de renda fixa.</fullName>
+                <default>false</default>
+                <label>Investi apenas em produtos ou fundos de renda fixa.</label>
+            </value>
+            <value>
+                <fullName>Investi em produtos ou fundos de renda fixa e/ ou de multimercado e/ou de renda variável e/ou com derivativos com finalidade de hedge.</fullName>
+                <default>false</default>
+                <label>Investi em produtos ou fundos de renda fixa e/ ou de multimercado e/ou de renda variável e/ou com derivativos com finalidade de hedge.</label>
+            </value>
+            <value>
+                <fullName>Investi em produtos de renda fixa e/ou de multimercado e/ou de renda variável e/ou com derivativos com finalidade de especulação ou alavancagem.</fullName>
+                <default>false</default>
+                <label>Investi em produtos de renda fixa e/ou de multimercado e/ou de renda variável e/ou com derivativos com finalidade de especulação ou alavancagem.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

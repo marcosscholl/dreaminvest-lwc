@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Question_10__c</fullName>
+    <externalId>false</externalId>
+    <label>Question_10</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Até R$ 20.000,00.</fullName>
+                <default>false</default>
+                <label>Até R$ 20.000,00.</label>
+            </value>
+            <value>
+                <fullName>Entre R$ 20.000,01 e R$ 100.000,00.</fullName>
+                <default>false</default>
+                <label>Entre R$ 20.000,01 e R$ 100.000,00.</label>
+            </value>
+            <value>
+                <fullName>Entre R$ 100.000,01 a R$ 1.000.000,00.</fullName>
+                <default>false</default>
+                <label>Entre R$ 100.000,01 a R$ 1.000.000,00.</label>
+            </value>
+            <value>
+                <fullName>Acima de R$ 1.000.000,01.</fullName>
+                <default>false</default>
+                <label>Acima de R$ 1.000.000,01.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

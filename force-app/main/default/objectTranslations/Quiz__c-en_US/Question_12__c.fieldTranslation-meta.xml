@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Question_12 --></label>
+    <name>Question_12__c</name>
+    <picklistValues>
+        <masterLabel>Admito perdas de até 20% do capital investido, se a proposta de investimento  gerar possibilidade de altos retornos. A procura por rentabilidade é mais importante do que a segurança.</masterLabel>
+        <translation><!-- Admito perdas de até 20% do capital investido, se a proposta de investimento  gerar possibilidade de altos retornos. A procura por rentabilidade é mais importante do que a segurança. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minha prioridade é maximizar a rentabilidade, com a segurança em segundo pano. Posso correr grande riscos para obter elevados retornos, admitindo perder mais de 20% do meu capital investido.</masterLabel>
+        <translation><!-- Minha prioridade é maximizar a rentabilidade, com a segurança em segundo pano. Posso correr grande riscos para obter elevados retornos, admitindo perder mais de 20% do meu capital investido. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Não admito perder nada do capital investido, no entanto posso arriscar uma parte do capital para alcançar resultados melhores que a renda fixa tradicional. Valorizo mais a segurança do que a rentabilidade.</masterLabel>
+        <translation><!-- Não admito perder nada do capital investido, no entanto posso arriscar uma parte do capital para alcançar resultados melhores que a renda fixa tradicional. Valorizo mais a segurança do que a rentabilidade. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Não admito perder nada do capital investido. Procuro um retorno seguro e sem oscilações. Segurança é mais importante do que rentabilidade.</masterLabel>
+        <translation><!-- Não admito perder nada do capital investido. Procuro um retorno seguro e sem oscilações. Segurança é mais importante do que rentabilidade. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Posso correr riscos para conseguir uma rentabilidade acima da média, no entanto, prezo a preservação de 100% do capital investido. Divido minhas preferências entre segurança e rentabilidade, mas ainda prefiro segurança à rentabilidade.</masterLabel>
+        <translation><!-- Posso correr riscos para conseguir uma rentabilidade acima da média, no entanto, prezo a preservação de 100% do capital investido. Divido minhas preferências entre segurança e rentabilidade, mas ainda prefiro segurança à rentabilidade. --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

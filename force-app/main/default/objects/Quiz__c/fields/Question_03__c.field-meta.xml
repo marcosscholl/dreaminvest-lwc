@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Question_03__c</fullName>
+    <externalId>false</externalId>
+    <label>Question_03</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Preciso desse dinheiro como complemento de renda.</fullName>
+                <default>false</default>
+                <label>Preciso desse dinheiro como complemento de renda.</label>
+            </value>
+            <value>
+                <fullName>Eventualmente posso precisar utilizar uma  parte dele.</fullName>
+                <default>false</default>
+                <label>Eventualmente posso precisar utilizar uma  parte dele.</label>
+            </value>
+            <value>
+                <fullName>Não tenho necessidade imediata desse dinheiro.</fullName>
+                <default>false</default>
+                <label>Não tenho necessidade imediata desse dinheiro.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
