@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investment_Profile__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Asset_Class__c, 
+&#39;Bond&#39;, &#39;Moderado&#39;, 
+&#39;Commodity&#39;, &#39;Moderado&#39;, 
+&#39;Currency&#39;,&#39;Agressivo&#39;, 
+&#39;Equity&#39;,&#39;Agressivo&#39;, 
+&#39;Fixed Income&#39;,&#39;Moderado&#39;, 
+&#39;Multi-Asset&#39;,&#39;Arrojado&#39;, 
+&#39;Volatility&#39;,&#39;Arrojado&#39;, 
+&#39;Moderado&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Investment Profile</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

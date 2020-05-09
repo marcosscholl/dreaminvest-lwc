@@ -2,14 +2,17 @@
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <componentInstances>
-            <componentName>snews:News</componentName>
+            <componentName>stockWidget</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
                 <name>componentHeight</name>
-                <value>700px</value>
+                <value>400px</value>
             </componentInstanceProperties>
             <componentName>traderDesktop</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>snews:News</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>

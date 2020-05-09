@@ -43,7 +43,15 @@ global with sharing class FundController {
 
         @AuraEnabled
         public Decimal max5YearReturn { get; set; }
-    }
+
+        @AuraEnabled
+        public string investmentProfile { get; set; }
+
+        @AuraEnabled
+        public string customerIndustry { get; set; }
+        
+
+        }
 
     @AuraEnabled(cacheable=true)
     public static PagedResult getFunds(
@@ -66,6 +74,9 @@ global with sharing class FundController {
         Decimal max1YearReturn = filter.max1YearReturn;
         Decimal max5YearReturn = filter.max5YearReturn;
 
+        String investmentProfile = filter.investmentProfile;
+        String customerIndustry = filter.customerIndustry;
+
         String countSQL =
             'SELECT count() FROM Fund__c WITH_SECURITY_ENFORCED where name LIKE :key ' +
             'AND YTD_Return__c >= :minYtdReturn AND YTD_Return__c <= :maxYtdReturn ' +
@@ -76,6 +87,12 @@ global with sharing class FundController {
         }
         if (!String.isBlank(filter.sector)) {
             countSQL = countSQL + 'AND Sector__c = :sector ';
+        }
+        if (!String.isBlank(filter.investmentProfile)) {
+            countSQL = countSQL + 'AND Investment_Profile__c = :investmentProfile ';
+        }
+        if (!String.isBlank(filter.customerIndustry)) {
+            countSQL = countSQL + 'AND Customer_Industry__c = :customerIndustry ';
         }
         r.total = Database.countQuery(countSQL);
         r.pages = (Math.ceil(r.total / r.pageSize)).intValue();
@@ -93,6 +110,12 @@ global with sharing class FundController {
         }
         if (!String.isBlank(filter.sector)) {
             sql = sql + 'AND Sector__c = :sector ';
+        }
+        if (!String.isBlank(filter.investmentProfile)) {
+            sql = sql + 'AND Investment_Profile__c = :investmentProfile ';
+        }
+        if (!String.isBlank(filter.customerIndustry)) {
+            sql = sql + 'AND Customer_Industry__c = :customerIndustry ';
         }
         sql = sql + 'LIMIT :pSize OFFSET :offset';
         r.funds = Database.query(sql);

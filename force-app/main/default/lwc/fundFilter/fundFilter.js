@@ -6,6 +6,7 @@ export default class FundFilter extends LightningElement {
     @wire(CurrentPageReference) pageRef;
 
     handleSearchKeyChange(event) {
+        console.log("chegou aqui no handleSearchKeyChange");
         if (event.detail !== undefined) {
             fireEvent(this.pageRef, 'dreaminvest__fundfilterchange', {
                 searchKey: event.detail
@@ -35,4 +36,25 @@ export default class FundFilter extends LightningElement {
             });
         }
     }
+
+
+    handleInvestmentProfileChange(event) {
+        console.log("chegou aqui no handleInvestmentProfileChange");
+        if (event.detail !== undefined) {
+            fireEvent(this.pageRef, 'dreaminvest__fundfilterchange', {
+                investmentProfile: event.detail
+            });
+        }
+    }
+
+
+    handleCustomerIndustryChange(event) {
+        if (event.detail) {
+            fireEvent(this.pageRef, 'dreaminvest__fundfilterchange', {
+                customerIndustry: event.detail.value
+            });
+        }
+    }
+
+
 }
